@@ -6,11 +6,9 @@
 
 ### Using this app
 
-1. Clone this repo  and navigate directory
-2. Run `python -m venv venv`
-3. Activate virtaul env `source venv/bin/activate`
-4. Install all the libraries requiered to run this project using `pip install --no-cache-dir -r requirements.txt`
-5  Run `python app.py`  
+1. Clone this repo and navigate directory
+2. Run `chmod +x start.sh`
+3. Then `run ./sart.sh`
 
 ### Running project using docker
 
