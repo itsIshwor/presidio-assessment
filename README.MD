@@ -17,7 +17,7 @@
 ### hitting endpoints directly which is hosted on AWS ec2 instance
 
 1. Hitting endpoint `
-url --location 'http://ec2-3-84-157-176.compute-1.amazonaws.com:80/search' \
+curl --location 'http://ec2-3-84-157-176.compute-1.amazonaws.com:80/search' \
 --header 'Content-Type: application/json' \
 --data '{
     "query": "your query"
